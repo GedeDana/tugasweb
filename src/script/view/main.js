@@ -38,8 +38,8 @@ const main = function () {
         
 
             covidNameProvince.innerHTML = `<h3>${provinsi}</h3>`;
-            covidNameProvince.appendChild(provinceListCovidElement);
-            covidInformation.appendChild(provinceListCovidElement);
+            provinceListCovidElement.appendChild(covidNameProvince);
+            provinceListCovidElement.appendChild(covidInformation);
         })
     };
 
