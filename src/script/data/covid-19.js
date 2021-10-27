@@ -42,29 +42,15 @@ const covid = [
     },
 ];
 
-// const indoCovid19 = [
-//     [
-//         {
-//             "name": "Indonesia",
-//             "positif": "4,241,090",
-//             "sembuh": "4,084,831",
-//             "meninggal": "143,270",
-//             "dirawat": "12,989"
-//         }
-//     ]
-// ];
+const indoCovid19 = [
+    [
+        {
+            "name": "Indonesia",
+            "positif": "4,241,090",
+            "sembuh": "4,084,831",
+            "meninggal": "143,270",
+            "dirawat": "12,989"
+        }
+    ]
+];
 
-// const worldCovid19 = [
-//     {
-//         name: "Total Meninggal",
-//         value: "13,049"
-//     },
-//     {
-//         name: "Total Sembuh",
-//         value: "92,373"
-//     },
-//     {
-//         name: "Total Positif",
-//         value: "307,278"
-//     }
-// ];
