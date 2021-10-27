@@ -14,3 +14,13 @@ DataSource.prototype.searchProvince = function (key) {
         this.onFailed(`${key} is not found`);
     }
 };
+DataSource.prototype.renderCovidInfo = function (){
+    const indoCovid19 = indoCovid19.map((covidIndo) => {
+        if(covidIndo !== undefined){
+            this.onSuccess(indoCovid19);
+        } else {
+            this.onFailed('Tidak ada informasi')
+        }
+    });
+
+}
